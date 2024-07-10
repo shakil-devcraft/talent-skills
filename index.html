@@ -45,7 +45,7 @@
 
     <!-- c4u section -->
     <section>
-        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 items-center justify-between gap-6 container mx-auto px-4 md:px-0 lg:px-20 py-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 items-center justify-between gap-6 container mx-auto px-4 md:px-0 lg:px-20 py-10">
             <div class=" col-span-4 md:col-span-4 lg:col-span-2">
                 <h2 class="text-5xl md:text-4xl text-[#2D3142] font-bold">At <span class="underline text-[#F44335]">C4U</span>, <br>
                     We Empower:
@@ -75,9 +75,11 @@
     </section>
 
     <!-- about us -->
-    <section>
-        <div>
-            <div class="container mx-auto px-4 md:px-0 lg:px-20 grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-6 md:gap-10 pt-20">
+    <section class="relative">
+        <img class="absolute md:h-[85%] lg:h-[90%] md:mt-48 lg:mt-0 lg:top-52 hidden md:flex" style="left: 50%; transform: translateX(-50%);" src="asset/Line and circle content.png" alt="">
+        <div class=" relative ">
+            <img class="absolute right-0" src="asset/Oval.png" alt="">
+            <div class="container mx-auto px-4 md:px-0 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 pt-20">
                 <div>
                     <p class="uppercase text-[#FC5A5A]">About us</p>
                     <h2 class=" text-3xl lg:text-4xl font-bold text-[#2D3142] mt-4 mb-10">Our Mission</h2>
@@ -85,14 +87,15 @@
                     <button class="py-2 px-6 border border-[#F44335] bg-transparent rounded-full font-bold text-[#F44335]">Find out more</button>
                 </div>
                 <div>
-                    <img class="w-full" src="asset/group-1.png" alt="">
+                    <img class="w-full mx-auto md:w-[80%] md:float-right lg:w-full" src="asset/group-1.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="mt-10">
-            <div class="container mx-auto px-4 md:px-0 lg:px-20 grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-6 md:gap-10 pb-20">
+        <div class=" relative mt-10">
+            <img class="absolute right-0" src="asset/Oval.png" alt="">
+            <div class="container mx-auto px-4 md:px-0 lg:px-20 flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-10 pb-20">
                 <div>
-                    <img class="w-full" src="asset/group-2.png" alt="">
+                    <img class="w-full mx-auto md:w-[80%] md:float-left lg:w-full" src="asset/group-2.png" alt="">
                 </div>
                 <div>
                     <p class="uppercase text-[#FC5A5A]">About us</p>
@@ -104,7 +107,67 @@
         </div>
     </section>
 
-    
+    <!-- some info -->
+    <section class="bg-white">
+        <div class="container mx-auto px-4 md:px-0 lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6 lg:pt-32 pt-10 pb-10">
+            <div class="p-5 space-y-5">
+                <img class="float-right object-cover" src="asset/1.png" alt="">
+                <img src="asset/light.png" alt="">
+                <h3 class=" text-xl lg:text-2xl text-[#000000] font-bold">Discover</h3>
+                <p class="text-[#757095] text-xs md:text-sm">We uncover students unique skills to stand out in a crowded job market</p>
+            </div>
+            <div class="p-5 space-y-5">
+                <img class="float-right object-cover" src="asset/2.png" alt="">
+                <img src="asset/instrument.png" alt="">
+                <h3 class=" text-xl lg:text-2xl text-[#000000] font-bold">Interact</h3>
+                <p class="text-[#757095] text-xs md:text-sm">We open doors to new opportunities by expanding your transferrable skills</p>
+            </div>
+            <div class="p-5 space-y-5">
+                <img class="float-right object-cover" src="asset/3.png" alt="">
+                <img src="asset/upfile.png" alt="">
+                <h3 class=" text-xl lg:text-2xl text-[#000000] font-bold">Engage</h3>
+                <p class="text-[#757095] text-xs md:text-sm">To forester a skill focussed environment that enable students to navigate their ideal career</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section -->
+    <section class="w-full bg-no-repeat h-auto" style="background-image: url(asset/bg-2.png);">
+        <div class="container mx-auto px-4 md:px-0 lg:px-20 pt-32 pb-20">
+            <div class="flex mb-10 md:mb-0">
+                <h2 class="font-bold text-2xl md:text-3xl xl:text-4xl">The Creative Team <br> behind <span class="text-[#F44335]"> the door</span></h2>
+                <img src="asset/Arrow_10.png" alt="">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-6 items-center justify-between relative">
+                <img class="absolute md:-right-6 lg:-right-14 md:-top-8 lg:-top-14 -z-20 hidden md:flex" src="asset/dot.png" alt="">
+                <img class="absolute md:-left-6 lg:-left-10 md:-bottom-6 lg:-bottom-10 -z-20 hidden md:flex" src="asset/dot.png" alt="">
+                <div class="bg-white text-center py-8 rounded-lg">
+                    <img class=" mx-auto w-[135px] h-[135px]" src="asset/image 3.png" alt="">
+                    <h3 class=" mb-1 text-xl lg:text-2xl font-bold mt-4">Ekta Mahajan</h3>
+                    <span class=" text-[#000000] text-xs md:text-sm">Founder & C.E.O</span>
+                    <img class=" mx-auto mt-5" src="asset/social.png" alt="">
+                </div>
+                <div class="bg-white text-center py-8 rounded-lg">
+                    <img class=" mx-auto w-[135px] h-[135px]" src="asset/image 4.png" alt="">
+                    <h3 class=" mb-1 text-xl lg:text-2xl font-bold mt-4">Toby Potter-Drake</h3>
+                    <span class=" text-[#000000] text-xs md:text-sm">Product Manager Associate</span>
+                    <img class=" mx-auto mt-5" src="asset/social.png" alt="">
+                </div>
+                <div class="bg-white text-center py-8 rounded-lg">
+                    <img class=" mx-auto w-[135px] h-[135px]" src="asset/image 2.png" alt="">
+                    <h3 class=" mb-1 text-xl lg:text-2xl font-bold mt-4">Ross Davies</h3>
+                    <span class=" text-[#000000] text-xs md:text-sm">Corporate Growth Associate</span>
+                    <img class=" mx-auto mt-5" src="asset/social.png" alt="">
+                </div>
+                <div class="bg-white text-center py-8 rounded-lg">
+                    <img class=" mx-auto w-[135px] h-[135px]" src="asset/image 1.png" alt="">
+                    <h3 class=" mb-1 text-xl lg:text-2xl font-bold mt-4">Leo crozier</h3>
+                    <span class=" text-[#000000] text-xs md:text-sm">Software Developer</span>
+                    <img class=" mx-auto mt-5" src="asset/social.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- footer section -->
     <section class="">
